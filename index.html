@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            font-family:Calibri,sanserif;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            background-color:lightgray;
+            width:400px;
+            padding:10px;
+            border-radius:5px;
+            box-shadow:0 0 10px black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Job Enrollment Form</h2>
+        <form>
+            <label>UserName</label><br><br>
+            <input type="text" placeholder="Username"><br><br>
+            <label>Password</label><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <label>Email</label><br><br>
+            <input type="Email" placeholder="Email"><br><br>
+            <label>About Yourself</label><br><br>
+            <textarea rows="3" cols="10" placeholder="About Yourself"></textarea><br><br>
+            <label>Designation</label><br><br>
+            <select><br>
+                <option value="Software Engineer">SoftwareEngineer</option>
+                <option value="Sr.SoftwareEngineer">Sr.softwareEngineer</option>
+                <option value="Tech Lead">Tech Lead</option>
+                <option value="Project Manager">Project Manager</option>
+            </select><br><br>
+            <label>DOB</label><br>
+            <input type="date"><br><br>
+            <label>Upload Photo</label><br><br>
+            <label>Upload Photo</label><br><br>
+            <input type="file"><br><br>
+            <label>Mobile</label><br><br>
+            <input type="number"><br><br>
+            <label>Programming Level</label><br><br>
+            <input type="checkbox" value="beginner">Beginner
+            <input type="checkbox" value="Intermediate">Intermediate
+            <input type="checkbox" value="expertise">Expertise<br><br>
+            <label>Expertize level</label><br><br>
+            <input type="radio" name="expertize" value="frontend">frontend
+            <input type="radio" name="expertize" value="backend">backend
+            <input type="radio" name="expertize" value="database">database
+            <input type="radio" name="expertize" value="FullStack">FullStack<br><br>
+            <input type="submit" class="button" value="Enroll">
+            <input type="reset" class="button" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
